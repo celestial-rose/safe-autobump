@@ -1,0 +1,17 @@
+{
+  "name": "safe-autobump",
+  "author": "@celestial-rose",
+  "license": "MIT",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "safe-autobump": "index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
